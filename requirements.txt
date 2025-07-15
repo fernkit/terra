@@ -1,0 +1,19 @@
+# Terra CLI Requirements
+# Python dependencies for Terra CLI - Fern UI Framework Developer Tools
+
+# Core dependencies
+PyYAML>=5.4.1          # YAML configuration parsing
+colorama>=0.4.4        # Cross-platform colored terminal text
+requests>=2.25.1       # HTTP library for downloading templates/updates
+click>=8.0.0           # Command line interface creation toolkit
+jinja2>=3.0.0          # Template engine for project generation
+
+# Development dependencies (install with: pip install -e .[dev])
+# pytest>=6.0.0         # Testing framework
+# black>=21.0.0          # Code formatter
+# flake8>=3.9.0          # Linting tool
+# mypy>=0.910            # Type checking
+
+# Documentation dependencies (install with: pip install -e .[docs])
+# mkdocs>=1.4.0          # Documentation generator
+# mkdocs-material>=8.0.0 # Material theme for MkDocs
