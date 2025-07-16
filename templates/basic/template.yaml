@@ -1,0 +1,22 @@
+name: "Basic Fern Project"
+description: "A simple Fern UI application template"
+version: "1.0.0"
+author: "Terra CLI"
+files:
+  - src: "main.cpp"
+    dest: "lib/main.cpp"
+  - src: "fern.yaml"
+    dest: "fern.yaml"
+  - src: "README.md"
+    dest: "README.md"
+  - src: "template.html"
+    dest: "web/template.html"
+variables:
+  - name: "project_name"
+    description: "Project name"
+    type: "string"
+    required: true
+  - name: "author"
+    description: "Author name"
+    type: "string"
+    default: "Unknown"
