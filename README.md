@@ -1,7 +1,7 @@
 # Terra CLI
 
 <p align="center">
-  <img src="assets/logo.png" alt="Terra CLI logo" width="200"/>
+  <img src="assets/logo/logo.png" alt="Terra CLI logo" width="200"/>
 </p>
 
 **Advanced Developer Tools for Fern UI Framework**
